@@ -2,10 +2,15 @@
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { scrollToSection } from '../../../utils/simpleScroll';
+import { useGetHeroImageQuery } from '../../../features/siteSettings/siteSettingsApi';
+
+const DEFAULT_HERO = '/images/prueba/hero.png';
 
 const Hero = ({ 
-  backgroundImage = '/images/prueba/hero.png',
+  backgroundImage,
 }) => {
+  const { data } = useGetHeroImageQuery();
+  const heroImage = backgroundImage || data?.data?.url || DEFAULT_HERO;
   // Solo estados para el pan en mobile
   const [isPanning, setIsPanning] = useState(false);
   const [panPosition, setPanPosition] = useState({ x: 50, y: 50 });
@@ -74,7 +79,7 @@ const Hero = ({
           
           {/* Imagen principal que SIEMPRE llena la pantalla */}
           <img
-            src={backgroundImage}
+            src={heroImage}
             alt="Hero Background"
             className="absolute inset-0 w-full h-full object-cover object-center z-0"
             onLoad={() => console.log('✅ Imagen cargada!')}
@@ -89,7 +94,7 @@ const Hero = ({
           <div 
             className="absolute inset-0 z-0 bg-gray-900"
             style={{
-              backgroundImage: `url(${backgroundImage})`,
+              backgroundImage: `url(${heroImage})`,
               backgroundSize: 'cover',
               backgroundPosition: `${panPosition.x}% ${panPosition.y}%`,
               backgroundRepeat: 'no-repeat',

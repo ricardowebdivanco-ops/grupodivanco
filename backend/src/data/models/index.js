@@ -9,6 +9,7 @@ import Project from './Project.js';
 import BlogPost from './BlogPost.js';
 import Subscriber from './Subscriber.js';
 import MediaFile from './MediaFile.js';
+import SiteSetting from './SiteSetting.js';
 
 // Importar y ejecutar asociaciones
 import { defineAssociations } from './associations.js';
@@ -26,7 +27,8 @@ export {
   Project,
   BlogPost,
   Subscriber,
-  MediaFile
+  MediaFile,
+  SiteSetting
 };
 
 // Función para sincronizar todos los modelos

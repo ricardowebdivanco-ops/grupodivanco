@@ -41,6 +41,7 @@ import ProjectUpload from "../pages/admin/Projects/ProjectUpload.jsx";
 import AdminBlogPage from "../pages/admin/Blog/AdminBlogPage.jsx";
 import AdminSubscribersPage from "../pages/admin/AdminSubscribersPage";
 import AdminProjectPage from "../pages/admin/Projects/AdminProjectPage.jsx";
+import CambiarPortadaPage from "../pages/admin/CambiarPortadaPage.jsx";
 
 export const router = createBrowserRouter(
   [
@@ -197,6 +198,10 @@ export const router = createBrowserRouter(
         {
           path: "subscribers",
           element: <AdminSubscribersPage />,
+        },
+        {
+          path: "cambiarPortada",
+          element: <CambiarPortadaPage />,
         },
       ],
     },

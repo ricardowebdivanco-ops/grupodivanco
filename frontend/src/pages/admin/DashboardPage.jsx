@@ -7,7 +7,8 @@ import {
   Squares2X2Icon,
   PlusIcon,
   EyeIcon,
-  PencilIcon
+  PencilIcon,
+  PhotoIcon,
 } from '@heroicons/react/24/outline';
 import { useGetProjectsQuery } from '../../features/projects/projectsApi';
 import { useGetBlogPostsQuery } from '../../features/blog/blogApi';
@@ -87,8 +88,20 @@ const DashboardPage = () => {
       color: 'bg-purple-50 text-purple-600',
       borderColor: 'border-purple-200 hover:border-purple-300',
       actions: [
-        { label: 'Crear', icon: PlusIcon, href: '/admin/showroom' }, // ✅ Actualizado a nueva ruta
-        { label: 'Organizar', icon: Squares2X2Icon, href: '/admin/showroom' }, // ✅ Actualizado a nueva ruta
+        { label: 'Crear', icon: PlusIcon, href: '/admin/showroom' },
+        { label: 'Organizar', icon: Squares2X2Icon, href: '/admin/showroom' },
+      ]
+    },
+    {
+      id: 'portada',
+      title: 'Imagen de portada',
+      description: 'Imagen hero de la página principal',
+      icon: PhotoIcon,
+      count: null,
+      color: 'bg-orange-50 text-orange-600',
+      borderColor: 'border-orange-200 hover:border-orange-300',
+      actions: [
+        { label: 'Cambiar', icon: PencilIcon, href: '/admin/cambiarPortada' },
       ]
     },
    
@@ -134,7 +147,7 @@ const DashboardPage = () => {
                     <IconComponent className="h-6 w-6" />
                   </div>
                   <span className="text-2xl font-light text-gray-900">
-                    {section.count}
+                    {section.count !== null ? section.count : ''}
                   </span>
                 </div>
                 

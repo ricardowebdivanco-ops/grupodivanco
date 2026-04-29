@@ -3,12 +3,13 @@ import authRoutes from './authRoutes.js';
 import userRoutes from './userRoutes.js';
 import categoryRoutes from './categoryRoutes.js';
 import subcategoryRoutes from './subcategoryRoutes.js';
-import productRoutes from './productRoutes.js'; // ← Ya lo tienes importado
+import productRoutes from './productRoutes.js';
 import projectRoutes from './projectRoutes.js';
 import blogRoutes from './blogRoutes.js';
 import subscriberRoutes from './subscriberRoutes.js';
 import searchRoutes from './searchRoutes.js';
 import syncRoutes from './syncRoutes.js';
+import siteSettingsRoutes from './siteSettingsRoutes.js';
 
 const router = express.Router();
 
@@ -37,6 +38,9 @@ router.use('/search', searchRoutes);
 
 // Rutas de sincronización (temporal)
 router.use('/sync', syncRoutes);
+
+// Rutas de configuración del sitio
+router.use('/settings', siteSettingsRoutes);
 
 // Ruta de información del API
 router.get('/', (req, res) => {

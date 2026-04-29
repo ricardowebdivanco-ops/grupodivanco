@@ -67,12 +67,13 @@ export const baseApi = createApi({
     'Auth', 
     'Category', 
     'Subcategory', 
-    'Product', // ✅ Agregar Product
+    'Product',
     'Project', 
     'BlogPost', 
     'Subscriber',
-    'ProjectMedia', // ✅ Agregar este tag type
-    'FilterOptions' // ✅ Agregar este tag type
+    'ProjectMedia',
+    'FilterOptions',
+    'HeroImage'
   ],
   endpoints: () => ({}),
 });
