@@ -39,7 +39,6 @@ app.use(cors({
     const allowedOrigins = [
       'https://divanco-web.vercel.app',
       'https://divancoweb.onrender.com',
-      'https://yellow-sea-0d0acfc0f.3.azurestaticapps.net',
       'https://grupodivanco.com',
       'https://www.grupodivanco.com',
       'https://grupodivanco.co',
