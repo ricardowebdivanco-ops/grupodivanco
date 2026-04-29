@@ -1,0 +1,250 @@
+{
+  "navigation": {
+    "showrooms": "Salon De Venta",
+    "nosotros": "Nosotros",
+    "projects": "Proyectos",
+    "editions": "Ediciones",
+    "noticias": "Noticias",
+    "buscar": "Buscar"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "profile": "Perfil"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "viewMore": "Ver más",
+    "close": "Cerrar",
+    "seeAll": "Ver todos los productos de",
+    "readMore": "Leer más",
+    "translating": "Traduciendo contenido...",
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente"
+    }
+  },
+  "search": {
+    "placeholder": "Buscar proyectos, productos, categorías...",
+    "noResults": "Sin resultados",
+    "suggestions": "Sugerencias",
+    "results": "Resultados"
+  },
+  "menu": {
+    "closeMenu": "Cerrar menú",
+    "goTo": "Ir a",
+    "noRecentProjects": "No hay proyectos recientes",
+    "noRecentPosts": "No hay posts recientes",
+    "noCategories": "No hay categorías",
+    "search": "Buscar",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión"
+  },
+  "pages": {
+    "blog": {
+      "title": "Noticias",
+      "subtitle": "NOVEDADES Y TENDENCIAS",
+      "description": "Descubre las últimas novedades, tendencias y proyectos en nuestro blog de arquitectura y diseño.",
+      "readMore": "Leer más",
+      "filters": {
+        "all": "Todos",
+        "featured": "Destacados"
+      },
+      "pagination": {
+        "previous": "Anterior",
+        "next": "Siguiente"
+      },
+      "errors": {
+        "loading": "Error cargando los posts del blog"
+      },
+      "imageAlt": "Imagen no disponible"
+    }
+  },
+  "sloganPage": {
+    "design": "Diseño",
+    "vanguard": "Vanguardia",
+    "construction": "Construcción",
+    "seeProjects": "Ver proyectos"
+  },
+  "blogSection": {
+    "noticias": "Noticias",
+    "miraLasNovedades": "MIRA LAS NOVEDADES",
+    "verTodasLasNovedades": "Ver todas las novedades",
+    "verGaleria": "Ver galería",
+    "explorarTodoBlog": "Explorar todo el blog",
+    "noImagenes": "No hay imágenes para mostrar."
+  },
+  "showroom": {
+    "title": "Nuestro Salón de Ventas",
+    "description": "Descubre nuestras categorías de productos y encuentra todo lo que necesitas para tu proyecto",
+    "categoria": "Explora nuestros productos",
+    "destacados": "Producto Destacado",
+    "verTodo": "Ver todos los productos de la tienda"
+  },
+  "projectDetail": {
+    "galeria": "Galería del Proyecto",
+    "informacion": "Información del Proyecto",
+    "etiquetas": "Etiquetas",
+    "cronologia": "Cronología",
+    "año": "Año",
+    "ubicacion": "Ubicación",
+    "cliente": "Cliente",
+    "etapa": "ETAPA",
+    "area": "Área",
+    "inicio": "Inicio",
+    "finalizacion": "Finalización",
+    "verTourVirtual": "Ver Tour Virtual",
+    "tourVirtual": "Tour Virtual 360°",
+    "tourVirtualSubtitle": "Explora el proyecto en una experiencia inmersiva",
+    "cargandoTour": "Cargando tour virtual...",
+    "sinImagen": "Sin imagen",
+    "deslizaContenido": "Desliza para ver más contenido",
+    "enlaceCopiado": "¡Enlace copiado al portapapeles!",
+    "cargandoProyecto": "Cargando proyecto...",
+    "verMejorExperiencia": "Para una mejor experiencia, abre el tour virtual en una nueva ventana",
+    "abrirTourVirtual": "Abrir Tour Virtual",
+    "clickParaAbrir": "Click para abrir en nueva ventana",
+    "tourvirtual360": "Tour Virtual 360°"
+  },
+  "footer": {
+    "companyDescription": "Estudio de arquitectura especializado en diseño contemporáneo y showroom de materiales de construcción de alta calidad.",
+    "links": "Enlaces",
+    "showroom": "Salón de Ventas",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "ourLocation": "Nuestra Ubicación",
+    "followUs": "Síguenos:",
+    "developedBy": "Desarrollado por:",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "mapPopup": {
+      "title": "Divanco Arquitectura",
+      "viewInGoogleMaps": "Ver en Google Maps →"
+    }
+  },
+  "newsletter": {
+    "title": "Noticias",
+    "description": "Recibe las últimas noticias sobre nuestros proyectos y novedades del blog",
+    "emailPlaceholder": "tu-email@ejemplo.com",
+    "subscribe": "SUSCRIBETE",
+    "subscribing": "SUSCRIBIENDO...",
+    "subscribed": "¡SUSCRITO!",
+    "messages": {
+      "enterEmail": "Por favor ingresa tu email",
+      "validEmail": "Por favor ingresa un email válido",
+      "successDefault": "¡Suscripción exitosa! Revisa tu email para confirmar.",
+      "errorDefault": "Error al suscribirse. Intenta nuevamente."
+    }
+  },
+  "aboutPage": {
+    "title": "Nosotros - Divanco Arquitectura",
+    "metaDescription": "DIVANCO S.A.S diseña y construye espacios exclusivos que combinan innovación bioclimática, excelencia técnica y atención personalizada.",
+    "sectionTitle": "NOSOTROS",
+    "heroTitle": "Construimos con",
+    "heroTitleHighlight": "el alma",
+    "heroTitleEnd": "espacios que inspiran",
+    "heroDescription": "En DIVANCO S.A.S diseñamos, creamos y construimos espacios habitacionales y comerciales personalizados que integran innovación, arte y sostenibilidad.",
+    
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Diseñamos y construimos espacios exclusivos que combinan innovación bioclimática, excelencia técnica y una atención personalizada, para transformar las ideas de nuestros clientes en realidades habitables únicas y memorables."
+    },
+    
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "En DIVANCO S.A.S diseñamos, creamos y construimos espacios habitacionales y comerciales personalizados que integran innovación, arte y sostenibilidad. Convertimos la visión de cada cliente en experiencias arquitectónicas únicas que reflejan su esencia, estilo y propósito. Nuestra pasión es crear obras que inspiran y elevan la arquitectura colombiana hacia el mundo."
+    },
+    
+    "purpose": {
+      "title": "Nuestro Propósito",
+      "description": "Inspirar y materializar la esencia de cada persona, empresa o territorio a través de espacios arquitectónicos únicos y memorables, que combinan arte, innovación y excelencia técnica, impulsando el crecimiento sostenible de Colombia hacia el mundo."
+    },
+    
+    "valueProposition": {
+      "title": "Propuesta de Valor",
+      "subtitle": "Arquitectura con Alma",
+      "mainStatement": "DIVANCO ofrece soluciones arquitectónicas integrales que fusionan diseño personalizado, innovación y excelencia constructiva, impulsadas por la pasión de un equipo que construye con el alma, para crear espacios únicos que reflejan la esencia y los sueños de cada cliente, proyectando la calidad del talento colombiano al mundo.",
+      
+      "nature": {
+        "title": "Naturaleza del Servicio",
+        "description": "DIVANCO es más que una empresa de diseño y construcción: es una firma que convierte ideas en experiencias habitables, guiada por la convicción de que cada proyecto tiene una historia, una emoción y una esencia que merecen ser materializadas con maestría.",
+        "pillars": {
+          "design": {
+            "title": "Diseño Personalizado de Alto Nivel",
+            "description": "La visión y el estilo del cliente son el punto de partida"
+          },
+          "construction": {
+            "title": "Ejecución Constructiva Impecable",
+            "description": "Respaldada por procesos técnicos rigurosos y materiales de la más alta calidad"
+          },
+          "hardware": {
+            "title": "Ferretería Premium",
+            "description": "Espacio de inspiración, asesoría y conexión donde la innovación se convierte en experiencia tangible"
+          }
+        }
+      },
+      
+      "differentiators": {
+        "title": "Valor Diferencial",
+        "items": [
+          {
+            "title": "Pasión por el Detalle",
+            "description": "Cada obra es una creación hecha con el corazón, cuidando lo estético, lo funcional y lo emocional"
+          },
+          {
+            "title": "Personalización Profunda",
+            "description": "DIVANCO traduce la esencia del cliente en espacios que hablan de su identidad, su historia y su propósito"
+          },
+          {
+            "title": "Innovación Constante",
+            "description": "Adoptamos las tendencias arquitectónicas mundiales y las reinterpretamos con sello colombiano"
+          },
+          {
+            "title": "Excelencia Técnica y Humana",
+            "description": "Nuestro equipo de expertos construye con precisión, compromiso y alma"
+          },
+          {
+            "title": "Experiencia del Cliente como Centro",
+            "description": "La relación es cercana, transparente y empática desde el primer boceto hasta la entrega final"
+          },
+          {
+            "title": "Ferretería como Punto de Conexión",
+            "description": "Un lugar donde la calidad se muestra, se siente y se comparte"
+          }
+        ]
+      },
+      
+      "functionalValue": {
+        "title": "Valor Funcional",
+        "items": [
+          "Procesos integrales de diseño y construcción que garantizan eficiencia y cumplimiento",
+          "Supervisión técnica profesional en todas las etapas del proyecto",
+          "Transparencia presupuestal y comunicación constante con el cliente",
+          "Acabados de alta durabilidad con estándares internacionales"
+        ]
+      },
+      
+      "emotionalValue": {
+        "title": "Valor Emocional",
+        "description": "Construir con el alma: Cada proyecto nace del vínculo genuino con el cliente; se diseña con sensibilidad y se construye con pasión. El cliente siente orgullo y pertenencia al ver su esencia reflejada en el espacio creado. DIVANCO no solo entrega obras: entrega emociones tangibles y memorias habitables."
+      },
+      
+      "socialValue": {
+        "title": "Valor Social y Simbólico",
+        "items": [
+          "Eleva la arquitectura colombiana a escenarios internacionales, mostrando su creatividad, calidad y humanidad",
+          "Promueve prácticas responsables y sostenibles que respetan el entorno y fortalecen la economía local",
+          "Genera empleo digno y fomenta el crecimiento profesional del talento técnico y creativo"
+        ]
+      },
+      
+      "positioning": {
+        "title": "Posicionamiento",
+        "statement": "En DIVANCO, cada espacio se diseña con propósito y se construye con el alma: obras únicas que inspiran, conectan y trascienden."
+      }
+    }
+  }
+}

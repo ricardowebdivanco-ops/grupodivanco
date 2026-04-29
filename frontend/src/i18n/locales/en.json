@@ -1,0 +1,246 @@
+{
+  "navigation": {
+    "showrooms": "Showroom",
+    "nosotros": "About",
+    "projects": "Projects",
+    "editions": "Editions",
+    "noticias": "News",
+    "buscar": "Search"
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "profile": "Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "viewMore": "View more",
+    "close": "Close",
+    "seeAll": "See all products from",
+    "readMore": "Read more",
+    "translating": "Translating content...",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "search": {
+    "placeholder": "Search projects, products, categories...",
+    "noResults": "No results",
+    "suggestions": "Suggestions",
+    "results": "Results"
+  },
+  "menu": {
+    "closeMenu": "Close menu",
+    "goTo": "Go to",
+    "noRecentProjects": "No recent projects",
+    "noRecentPosts": "No recent posts",
+    "noCategories": "No categories",
+    "search": "Search",
+    "profile": "Profile",
+    "logout": "Sign out"
+  },
+  "pages": {
+    "blog": {
+      "title": "News",
+      "subtitle": "NEWS AND TRENDS",
+      "description": "Discover the latest news, trends and projects in our architecture and design blog.",
+      "readMore": "Read more",
+      "filters": {
+        "all": "All",
+        "featured": "Featured"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "errors": {
+        "loading": "Error loading blog posts"
+      },
+      "imageAlt": "Image not available"
+    }
+  },
+  "sloganPage": {
+    "design": "Design",
+    "vanguard": "Innovation",
+    "construction": "Construction",
+    "seeProjects": "See projects"
+  },
+    "blogSection": {
+    "noticias": "News",
+    "miraLasNovedades": "CHECK OUT THE NEWS",
+    "verTodasLasNovedades": "See all news",
+    "verGaleria": "View gallery",
+    "explorarTodoBlog": "Explore all blog",
+    "noImagenes": "No images to display."
+  },
+  "showroom": {
+    "title": "Our Showroom",
+    "description": "Discover our product categories and find everything you need for your project.",
+    "categoria": "Explore our products",
+    "destacados": "Featured Product",
+    "verTodo": "See all products in the store"
+  },
+   "projectDetail": {
+    "galeria": "Project Gallery",
+    "informacion": "Project Information",
+    "etiquetas": "Tags",
+    "cronologia": "Timeline",
+    "año": "Year",
+    "ubicacion": "Location",
+    "cliente": "Client",
+    "etapa": "STAGE",
+    "area": "Area",
+    "inicio": "Start",
+    "finalizacion": "Completion",
+    "verTourVirtual": "View Virtual Tour",
+    "tourVirtual": "Virtual Tour 360°",
+    "tourVirtualSubtitle": "Explore the project in an immersive experience",
+    "cargandoTour": "Loading virtual tour...",
+    "sinImagen": "No image",
+    "deslizaContenido": "Scroll to see more content",
+    "enlaceCopiado": "Link copied to clipboard!",
+    "cargandoProyecto": "Loading project..."
+  },
+  "footer": {
+    "companyDescription": "Architecture studio specialized in contemporary design and showroom of high-quality construction materials.",
+    "links": "Links",
+    "showroom": "Showroom",
+    "projects": "Projects",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "ourLocation": "Our Location",
+    "followUs": "Follow us:",
+    "developedBy": "Developed by:",
+    "allRightsReserved": "All rights reserved.",
+    "mapPopup": {
+      "title": "Divanco Architecture",
+      "viewInGoogleMaps": "View on Google Maps →"
+    }
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "description": "Get the latest news about our projects and blog updates",
+    "emailPlaceholder": "your-email@example.com",
+    "subscribe": "SUBSCRIBE",
+    "subscribing": "SUBSCRIBING...",
+    "subscribed": "SUBSCRIBED!",
+    "messages": {
+      "enterEmail": "Please enter your email",
+      "validEmail": "Please enter a valid email",
+      "successDefault": "Subscription successful! Check your email to confirm.",
+      "errorDefault": "Error subscribing. Please try again."
+    }
+  },
+  "aboutPage": {
+    "title": "About Us - Divanco Architecture",
+    "metaDescription": "DIVANCO S.A.S designs and builds exclusive spaces that combine bioclimatic innovation, technical excellence and personalized attention.",
+    "sectionTitle": "ABOUT US",
+    "heroTitle": "We build with",
+    "heroTitleHighlight": "soul",
+    "heroTitleEnd": "spaces that inspire",
+    "heroDescription": "At DIVANCO S.A.S we design, create and build personalized residential and commercial spaces that integrate innovation, art and sustainability.",
+    
+    "mission": {
+      "title": "Our Mission",
+      "description": "We design and build exclusive spaces that combine bioclimatic innovation, technical excellence and personalized attention, to transform our clients' ideas into unique and memorable habitable realities."
+    },
+    
+    "vision": {
+      "title": "Our Vision",
+      "description": "At DIVANCO S.A.S we design, create and build personalized residential and commercial spaces that integrate innovation, art and sustainability. We transform each client's vision into unique architectural experiences that reflect their essence, style and purpose. Our passion is to create works that inspire and elevate Colombian architecture to the world."
+    },
+    
+    "purpose": {
+      "title": "Our Purpose",
+      "description": "To inspire and materialize the essence of each person, company or territory through unique and memorable architectural spaces, combining art, innovation and technical excellence, driving Colombia's sustainable growth towards the world."
+    },
+    
+    "valueProposition": {
+      "title": "Value Proposition",
+      "subtitle": "Architecture with Soul",
+      "mainStatement": "DIVANCO offers comprehensive architectural solutions that fuse personalized design, innovation and constructive excellence, driven by the passion of a team that builds with soul, to create unique spaces that reflect the essence and dreams of each client, projecting the quality of Colombian talent to the world.",
+      
+      "nature": {
+        "title": "Nature of Service",
+        "description": "DIVANCO is more than a design and construction company: it is a firm that converts ideas into habitable experiences, guided by the conviction that each project has a story, an emotion and an essence that deserve to be materialized with mastery.",
+        "pillars": {
+          "design": {
+            "title": "High-Level Personalized Design",
+            "description": "The client's vision and style are the starting point"
+          },
+          "construction": {
+            "title": "Impeccable Construction Execution",
+            "description": "Backed by rigorous technical processes and the highest quality materials"
+          },
+          "hardware": {
+            "title": "Premium Hardware Store",
+            "description": "Space for inspiration, advice and connection where innovation becomes tangible experience"
+          }
+        }
+      },
+      
+      "differentiators": {
+        "title": "Differential Value",
+        "items": [
+          {
+            "title": "Passion for Detail",
+            "description": "Each work is a creation made with the heart, caring for the aesthetic, functional and emotional"
+          },
+          {
+            "title": "Deep Personalization",
+            "description": "DIVANCO translates the client's essence into spaces that speak of their identity, history and purpose"
+          },
+          {
+            "title": "Constant Innovation",
+            "description": "We adopt global architectural trends and reinterpret them with Colombian signature"
+          },
+          {
+            "title": "Technical and Human Excellence",
+            "description": "Our team of experts builds with precision, commitment and soul"
+          },
+          {
+            "title": "Customer Experience as Center",
+            "description": "The relationship is close, transparent and empathetic from the first sketch to final delivery"
+          },
+          {
+            "title": "Hardware Store as Connection Point",
+            "description": "A place where quality is shown, felt and shared"
+          }
+        ]
+      },
+      
+      "functionalValue": {
+        "title": "Functional Value",
+        "items": [
+          "Comprehensive design and construction processes that guarantee efficiency and compliance",
+          "Professional technical supervision at all stages of the project",
+          "Budget transparency and constant communication with the client",
+          "High durability finishes with international standards"
+        ]
+      },
+      
+      "emotionalValue": {
+        "title": "Emotional Value",
+        "description": "Building with soul: Each project is born from a genuine bond with the client; it is designed with sensitivity and built with passion. The client feels pride and belonging seeing their essence reflected in the created space. DIVANCO doesn't just deliver works: it delivers tangible emotions and habitable memories."
+      },
+      
+      "socialValue": {
+        "title": "Social and Symbolic Value",
+        "items": [
+          "Elevates Colombian architecture to international stages, showing its creativity, quality and humanity",
+          "Promotes responsible and sustainable practices that respect the environment and strengthen the local economy",
+          "Generates dignified employment and promotes professional growth of technical and creative talent"
+        ]
+      },
+      
+      "positioning": {
+        "title": "Positioning",
+        "statement": "At DIVANCO, each space is designed with purpose and built with soul: unique works that inspire, connect and transcend."
+      }
+    }
+  }
+}
